@@ -9,6 +9,9 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    body{
+        background-color: #AFEEEE;
+    }
 `
 
 export const ContainerOds = styled.section`
@@ -21,6 +24,7 @@ export const ContainerOds = styled.section`
 export const Header = styled.div`
     display: flex;
     justify-content: space-around;
+    background-color: white;
     @media (max-width: 768px){
         flex-direction: column;
         align-items: center;
