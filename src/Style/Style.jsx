@@ -18,7 +18,15 @@ export const ContainerOds = styled.section`
         color: white;
     }
 `
-
+export const Header = styled.div`
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 768px){
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+    }
+`
 
 export const H1 = styled.h1`
     display: flex;
@@ -27,9 +35,6 @@ export const H1 = styled.h1`
     font-size: 2rem;
     text-align: center;
     height: 20vh;
-    @media (max-width: 768px){
-        height: 35vh;
-    }
 `
 
 export const H3 = styled.h3`
@@ -44,13 +49,21 @@ export const H3 = styled.h3`
         
     }
     @media (max-width: 768px){
-        height: 80vh;
+        height: 90vh;
+    }
+`
+
+export const Logo = styled.img`
+    width: 10%;
+    @media (max-width: 768px){
+        width: 40%;
     }
 `
 
 export const Icons = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     @media (max-width: 768px){
         flex-direction: column;
         align-items: center;
